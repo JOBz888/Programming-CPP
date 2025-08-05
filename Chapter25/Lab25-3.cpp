@@ -13,7 +13,7 @@ class Circle {
 		std::cout << "Area of circle is " << (3.14 * radius * radius) << std::endl;
 	}
 	void perimeter() {
-		std::cout << "Perimeter of cicle is " << (2.0 * 3.14 * radius) << std::endl;
+		std::cout << "Perimeter of circle is " << (2.0 * 3.14 * radius) << std::endl;  // แก้คำว่า cicle เป็น circle
 	}
 };
 
@@ -22,4 +22,6 @@ int main(){
 	
 	c.findArea();
 	c.perimeter();
+	
+	return 0;  // เพิ่ม return 0; เพื่อให้ main ส่งค่ากลับอย่างถูกต้อง
 }
